@@ -31,6 +31,9 @@
 	width: 20px
 	height:100px;
 	background-color: blue;
+	transition: .ground 10000ms;
+	
+
 }
 
 
