@@ -28,6 +28,6 @@ var changeState = function(state) {
 					changeState(5);  // oh no!
 				}
 				
-		})
+		});
 	};
 }	
