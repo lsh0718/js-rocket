@@ -2,7 +2,7 @@ var timer = null;
 var countdownNumber = 10;
 
 var changeState = function(state) {
-	document.body.className = 'body-state'+ state;
+	document.body.className = 'body-state'+state;
 	clearInterval(timer);
 
 	if (state==2) {
@@ -19,7 +19,7 @@ var changeState = function(state) {
 			var randomNumber = Math.round
 				(Math.random()*10);
 
-				console.log('randomNumber:', randomNumber);
+				console.log('randomNumber:', randomNumber)
 
 				//success
 				if (randomNumber > 5) {
